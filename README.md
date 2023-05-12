@@ -55,12 +55,13 @@ GridButton(buttons = buttons, 3)
 ```
 
 ```kotlin
+// This method generates a list of 6 Button Configurations
 // We use the ButtonDecorator class to config every button
 private fun getButtonDecorators() = listOf(  
-	ButtonDecorator(  
-	  "Home",  
-	  Pair(Color(0xFFDD5E89), Color(0xFFF7BB97))  
-	) { Toast.makeText(this@MainActivity, "Home", Toast.LENGTH_SHORT).show() },  
+  ButtonDecorator(  
+    "Home",  
+    Pair(Color(0xFFDD5E89), Color(0xFFF7BB97))  
+  ) { Toast.makeText(this@MainActivity, "Home", Toast.LENGTH_SHORT).show() },  
   ButtonDecorator(  
     "My Profile",  
     Pair(Color(0xFFB80F87), Color(0xFFF5B1D5))  
