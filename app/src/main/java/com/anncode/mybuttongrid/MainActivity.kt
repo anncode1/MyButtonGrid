@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
         ) { Toast.makeText(this@MainActivity, "Browse", Toast.LENGTH_SHORT).show() },
         ButtonDecorator(
             "Navigator",
-            Pair(Color(0xFFB80F87), Color(0xFFF5B1D5)
+            Pair(Color(0xFFB80F87), Color(0xFFF5B1D5))
         ) { Toast.makeText(this@MainActivity, "Navigator", Toast.LENGTH_SHORT).show() }
     )
 }
