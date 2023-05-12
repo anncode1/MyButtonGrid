@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
         ) { Toast.makeText(this@MainActivity, "Home", Toast.LENGTH_SHORT).show() },
         ButtonDecorator(
             "My Profile",
-            Pair(Color(0xFFE91E63), Color(0xFF33001B))
+            Pair(Color(0xFFB80F87), Color(0xFFF5B1D5))
         ) { Toast.makeText(this@MainActivity, "My Profile", Toast.LENGTH_SHORT).show() },
         ButtonDecorator(
             "My Bag",
@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
         ) { Toast.makeText(this@MainActivity, "My Bag", Toast.LENGTH_SHORT).show() },
         ButtonDecorator(
             "Wish List",
-            Pair(Color(0xFFFBD3E9), Color(0xFFBB377D))
+            Pair(Color(0xFFB80F87), Color(0xFFF5B1D5))
         ) { Toast.makeText(this@MainActivity, "Wish List", Toast.LENGTH_SHORT).show() },
         ButtonDecorator(
             "Browse",
@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
         ) { Toast.makeText(this@MainActivity, "Browse", Toast.LENGTH_SHORT).show() },
         ButtonDecorator(
             "Navigator",
-            Pair(Color(0xFFC04848), Color(0xFF480048))
+            Pair(Color(0xFFB80F87), Color(0xFFF5B1D5))
         ) { Toast.makeText(this@MainActivity, "Navigator", Toast.LENGTH_SHORT).show() }
     )
 }
